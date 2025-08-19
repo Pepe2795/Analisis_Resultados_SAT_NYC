@@ -93,9 +93,11 @@ No need to install anything locally—just click and run!
 This indicates that Manhattan has the highest number of schools represented in the top 10 list based on total SAT scores in the dataset.
 
 ## Insights and conclusions
-First, we could determinate with the top_10 schools which are the schools with the best SAT scores. Names like Stuyvesant High School or Bronx High School of Science stand out. Another conclusion we could take for this analysis is that the schools with top scores are not evenly distributed across the city. Manhattan has 40% of the top 10, followed by Bronx 20%. On the other hand, we have districts like Brooklyn which only has one. This suggests that there are district factor´s which could be associated to the high academic performance. Finally, The standard deviation analysis (largest_std_dev) shows that Manhattan not only has the highest number of schools in the top 10, but also the greatest variability in SAT scores among all its schools. This is an interesting insight: despite having many elite schools, there is also a wide range of scores within the borough. This could be due to greater diversity in the types of schools or student populations within Manhattan, or perhaps reflect significant differences in resources or educational approaches between schools in the same borough. Other boroughs may have lower average SAT scores, but perhaps a more homogeneous distribution of scores among their schools.
+First, we could determinate with the top_10 schools which are the schools with the best SAT scores. Names like Stuyvesant High School or Bronx High School of Science stand out.
+Another conclusion we could get from this analysis is that the schools with top scores are not evenly distributed across the city. Manhattan has 40% of the top 10, followed by Bronx 20%. On the other hand, we have districts like Brooklyn which only has 10%. This suggests that there are some district atributes which could be associated to the high academic performance. 
+Finally, The standard deviation analysis (largest_std_dev) shows that Manhattan not only has the highest number of schools in the top 10, but also the greatest variability in SAT scores among all its schools. This is an interesting insight: despite having many elite schools, there is also a wide range of scores within the borough. This could be due to greater diversity in the types of schools or student populations within Manhattan, or perhaps reflect significant differences in resources or educational approaches between schools in the same borough. Other boroughs may have lower average SAT scores, but perhaps a more homogeneous distribution of scores among their schools.
 
+![Box-Plot: total Sat resuts grouped by Borough](boxplot_ny_exams.png)
 
+*Figure: box plot of the total SAT results by borough.*
 
-
-Fina
