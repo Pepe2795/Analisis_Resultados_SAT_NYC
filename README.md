@@ -74,17 +74,22 @@ No need to install anything locally—just click and run!
 9. Eleanor Roosevelt High School (Total SAT: 1889)
 10. High School for Mathematics, Science, and Engineering at City College (Total SAT: 1889)
 
-These are the schools with the highest combined scores from the math, reading, and writing sections of the SAT.
+    These are the schools with the highest combined scores from the math, reading, and writing sections of the SAT.
  
 - Based on the output from top_10_count_borough (Series that shows how many of the top 10 schools (by total SAT score) are located in each borough):
 
-According to this analysis, the distribution of the top 10 schools across boroughs is:
+  According to this analysis, the distribution of the top 10 schools across boroughs is:
 
-Manhattan: 4 schools
-Bronx: 2 schools
-Queens: 2 schools
-Brooklyn: 1 school
-Staten Island: 1 school
+  Manhattan: 4 schools
+  Bronx: 2 schools
+  Queens: 2 schools
+  Brooklyn: 1 school
+  Staten Island: 1 school
+
+  ![Pie Chart: Distribution of Top 10 Schools by Borough](images/top_10_schools_by_borough.png)
+
+  *Figure: Distribution of Top 10 Schools by Borough.*
+  
 This indicates that Manhattan has the highest number of schools represented in the top 10 list based on total SAT scores in the dataset.
 
 ## Insights and conclusions
