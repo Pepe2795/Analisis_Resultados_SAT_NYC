@@ -1,6 +1,19 @@
 # NYC_Exams_Results_Analysis
 Exploring NYC Public Schools Test Result scores
 
+## Table of Contents
+
+- [Context](#project-overview)
+- [Project Description](#Project-Description)
+- [Dataset](#dataset)
+- [Analysis Goals](#analysis-goals)
+- [How to Run](#how-to-run)
+- [Key Findings](#key-findings)
+- [Visualizations](#visualizations)
+- [Insights and Conclusions](#insights-and-conclusions)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## Context
 Every year, American high school students take the SAT, an exam that measures
 - Literacy: reading section
@@ -39,21 +52,38 @@ The data was provided by DataCamp. It´s a CSV file, with tabular structure.
 ## Analysis objetives
 Obtain insights about NYC public school SAT performance. There are three basic questions. The first is about which schools have the best math results. This same question could be asked for reading and writing. The second is which are the top 10 schools by total SAT score. The third is about which borough shows the greatest variability in results.
 
-## Tools & How to Run
+## How to Run
 
-This project is designed to be run online, without any local installation.
+You can run this project online—no local installation needed!
 
-- **Google Colab:**  
-  You can open and run the analysis notebooks directly in your browser using [Google Colab](https://colab.research.google.com/).  
-  [Open the main notebook in Colab](link-to-your-colab-notebook)
+### Option 1: Google Colab
 
-- **GitHub:**  
-  All code and data are available in this repository. You can view notebooks and scripts directly on GitHub.
+[Open the main notebook in Colab]([link-to-your-colab-notebook](https://colab.research.google.com/drive/1As0JpY-maSEBjTGhdffkB84R1IXJh0vZ#scrollTo=347a7856))
 
-- **Python:**  
-  The project is compatible with cloud-based Jupyter environments and GitHub Codespaces.
+### Option 2: GitHub Codespaces/Jupyter
 
-- **Pandas**
+- Clone this repo
+- Open `notebooks/analysis.ipynb` in Jupyter/Codespaces
+
+### Dependencies
+
+- Python >= 3.8
+- pandas
+- matplotlib/seaborn
+
+You can install dependencies locally via:
+```bash
+pip install -r requirements.txt
+```
+
+## Example Usage
+
+```python
+import pandas as pd
+
+df = pd.read_csv('data/nyc_schools_sat.csv')
+top_math = df.nlargest(10, 'average_math')[['school_name', 'average_math']]
+print(top_math)
 
 No need to install anything locally—just click and run!
 
