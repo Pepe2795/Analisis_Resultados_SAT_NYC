@@ -3,16 +3,21 @@ Exploring NYC Public Schools Test Result scores
 
 ## Table of Contents
 
-- [Context](#project-overview)
-- [Project Description](#Project-Description)
-- [Dataset](#dataset)
-- [Analysis Goals](#analysis-goals)
+- [Context](#context)
+- [Project Description](#project-description)
+- [Data Origin and structure](#data-origin-and-structure)
+- [Analysis objetives](#analysis-objetives)
 - [How to Run](#how-to-run)
+  - [Option 1: Google Colab](#option-1-google-colab)
+  - [Option 2: GitHub Codespaces/Jupyter](#option-2-github-codespacesjupyter)
+  - [Dependencies](#dependencies)
+  - [Example Usage](#example-usage)
 - [Key Findings](#key-findings)
 - [Visualizations](#visualizations)
-- [Insights and Conclusions](#insights-and-conclusions)
+  - [Distribution of Top 10 Schools by Borough](#distribution-of-top-10-schools-by-borough)
+  - [SAT Scores by Borough](#sat-scores-by-borough)
+- [Insights and conclusions](#insights-and-conclusions)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Context
 Every year, American high school students take the SAT, an exam that measures
@@ -93,16 +98,16 @@ No need to install anything locally—just click and run!
   
 - Based on the analysis, the top 10 schools by total SAT score are:
 
-1. Stuyvesant High School (Total SAT: 2144)
-2. Bronx High School of Science (Total SAT: 2041)
-3. Staten Island Technical High School (Total SAT: 2041)
-4. High School of American Studies at Lehman College (Total SAT: 2013)
-5. Townsend Harris High School (Total SAT: 1981)
-6. Queens High School for the Sciences at York College (Total SAT: 1947)
-7. Bard High School Early College (Total SAT: 1914)
-8. Brooklyn Technical High School (Total SAT: 1896)
-9. Eleanor Roosevelt High School (Total SAT: 1889)
-10. High School for Mathematics, Science, and Engineering at City College (Total SAT: 1889)
+     1. Stuyvesant High School (Total SAT: 2144)
+     2. Bronx High School of Science (Total SAT: 2041)
+     3. Staten Island Technical High School (Total SAT: 2041)
+     4. High School of American Studies at Lehman College (Total SAT: 2013)
+     5. Townsend Harris High School (Total SAT: 1981)
+     6. Queens High School for the Sciences at York College (Total SAT: 1947)
+     7. Bard High School Early College (Total SAT: 1914)
+     8. Brooklyn Technical High School (Total SAT: 1896)
+     9. Eleanor Roosevelt High School (Total SAT: 1889)
+     10. High School for Mathematics, Science, and Engineering at City College (Total SAT: 1889)
 
     These are the schools with the highest combined scores from the math, reading, and writing sections of the SAT.
  
